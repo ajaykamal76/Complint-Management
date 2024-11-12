@@ -1,0 +1,86 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+h4, h5, h6 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+button {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+button:focus {
+  outline: none;
+}
+
+input, textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input:focus, textarea:focus {
+  border-color: #3f51b5;
+  box-shadow: 0 0 4px rgba(63, 81, 181, 0.3);
+}
+
+.MuiContainer-root {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.MuiTypography-h4 {
+  color: #3f51b5;
+  margin-bottom: 16px;
+}
+
+.MuiButton-containedPrimary {
+  background-color: #3f51b5;
+  color: white;
+}
+
+.MuiButton-containedPrimary:hover {
+  background-color: #303f9f;
+}
+
+.MuiList-root {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.MuiListItem-root {
+  padding: 16px;
+}
+
+.MuiDivider-root {
+  background-color: #e0e0e0;
+}
+
+.MuiTextField-root {
+  width: 100%;
+}
